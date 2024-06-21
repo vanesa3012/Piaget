@@ -1,0 +1,274 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media (max-width: 768px){
+
+    main{
+        background-color: rgb(234, 241, 241);
+    }
+
+    nav{
+        background-color: #b2ccec;
+    }
+    
+    .container-fluid .navbar-brand{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    #navbarSupportedContent{
+        background-color: #c2d1e4;
+    }
+    
+    ul .dropdown-menu{
+        background-color: #c2d1e4;
+    }
+    
+    .navbar-brand img{
+        width: 60px;
+        margin-left: 130px;
+        border-radius: 50%;
+        background-color: rgb(234, 241, 241);
+    }
+    
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .title{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 26px;
+    }
+    
+    .portada{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foto-principal{
+        width: 85%;
+        margin: 5px auto;
+    }
+
+    .pie-img{
+        padding: 5px;
+        font-size: 8px;
+        margin: 0 5px;
+    }
+    
+    .container-biografia{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sub-title1{
+        padding: 5px;
+        margin-left: 30px;
+    }
+
+    .container-biografia p{
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: justify;
+    }
+
+    .img-pie{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .familia{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 3px;
+    }
+
+    .foto-flia{
+        font-size: 10px;
+        margin: 0 7px;
+    }
+
+    .biografia{
+        margin-left: 10px;
+        font-size: 12px;
+
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+        background-color: #b2ccec;
+    }
+
+    .container-pie{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pie{
+        width: 10%;
+        border-radius: 50%;
+    }
+
+    .container-pie p{
+        font-size: 15px;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    .copy{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 769px) {
+  /* Estilos para pantallas medianas y grandes */
+    main{
+        background-color: rgb(234, 241, 241);
+    }
+
+    nav{
+        background-color: #b2ccec;
+    }
+
+    .navbar-brand img{
+        width: 70px;
+        margin-left: 130px;
+        border-radius: 50%;
+    }
+
+    #navbarSupportedContent{
+        background-color: #c2d1e4;
+    }
+
+    .navbar-expand-lg .navbar-collapse a{
+        margin-left: 50px;
+        font-size: 15px;
+    }
+
+    .container-fluid .navbar-brand img{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .container-fluid .navbar-brand{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .container-fluid .navbar-brand:hover{
+        color: #054daa;
+    }
+
+    .collapse .nav-item a:hover{
+        color: #054daa;
+        font-weight: bold;
+    }
+
+    ul .dropdown-menu{
+        background-color: #c2d1e4;
+    }
+
+    .dropdown-menu .dropdown-item:hover{
+        background-color: transparent;
+    }
+
+    .title{
+        padding: 10px;
+        text-align: center;
+    }
+
+    .portada img{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 2px;
+    }
+
+    .pie-img{
+        text-align: center;
+        font-size: 12px;
+        
+    }
+
+    .sub-title1{
+        margin-left: 30px;
+    }
+
+    .container-biografia{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-biografia p{
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align:left;
+    }
+
+    .img-pie{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .familia{
+        width: 50%;
+        margin-bottom: 2px;
+    }
+
+    .foto-flia{
+        font-size: 12px;
+    }
+    
+
+    .biografia{
+        font-size: 10px;
+    }
+
+    /*FOOTER*/
+    footer{
+        background-color: #b2ccec;
+    }
+
+    .container-pie{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pie{
+        width: 60px;
+        border-radius: 50%;
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+
+    .container-pie p{
+        font-weight: bold;
+        margin-left: 15px;
+        margin-top: 15px;
+        font-size: 25px;
+    }
+
+    .copy{
+        display: flex;
+        font-size: 15px;
+        justify-content: center;
+    }
+}
