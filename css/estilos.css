@@ -5,12 +5,7 @@
     box-sizing: border-box;
 }
 
-
 @media (max-width: 768px){
-
-    main{
-        background-color: rgb(234, 241, 241);
-    }
 
     nav{
         background-color: #b2ccec;
@@ -39,6 +34,8 @@
     main{
         display: flex;
         flex-direction: column;
+        background-color: rgb(234, 241, 241);
+        font-size: 14px;
     }
     
     .title{
@@ -58,10 +55,22 @@
         margin: 5px auto;
     }
 
+    .img-pie{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
     .pie-img{
         padding: 5px;
         font-size: 8px;
         margin: 0 5px;
+    }
+
+    .familia{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 3px;
     }
     
     .container-biografia{
@@ -78,19 +87,7 @@
     .container-biografia p{
         margin-left: 20px;
         margin-right: 20px;
-        text-align: justify;
-    }
-
-    .img-pie{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .familia{
-        width: 80%;
-        margin: 0 auto;
-        margin-bottom: 3px;
+        text-align: left;
     }
 
     .foto-flia{
@@ -134,10 +131,76 @@
     .copy{
         font-size: 12px;
     }
+
+    /*psicogenetica*/
+
+    .parrafos{
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: left;
+    }
+
+    .foto1, .foto2, .foto3{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 3px;
+    }
+
+    .foto4{
+        width: 60%;
+        margin: 0 auto;
+        margin-bottom: 3px;
+    }
+
+    /*psicogenesis*/
+    .imagen1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagen1 p{
+        text-align: center;
+        font-size: 11px;
+    }
+
+    /*Desarrollo 4 etapas*/
+
+    .container-etapas{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+        margin-bottom: 5px;
+    }
+
+    .container-etapas img{
+        width: 80%;
+        height: 80%;
+        margin-top: 10px;
+        
+    }
+
+    .container-etapas p{
+        font-size: 20px;
+        text-align: center;
+        
+    }
+
+    .container-etapas .card{
+        width: 90%;
+        margin-left: 23px;
+        border: 2px solid rgb(180, 180, 221);
+        box-shadow: 0 4px 8px rgba(180, 180, 221);
+        background-color: #b2ccec;
+        text-align: center;
+    }    
+
+
 }
 
+/*Estilos para pantallas medianas y grandes */
+
 @media (min-width: 769px) {
-  /* Estilos para pantallas medianas y grandes */
     main{
         background-color: rgb(234, 241, 241);
     }
@@ -157,7 +220,7 @@
     }
 
     .navbar-expand-lg .navbar-collapse a{
-        margin-left: 50px;
+        margin-left: 40px;
         font-size: 15px;
     }
 
@@ -189,7 +252,6 @@
     }
 
     .title{
-        padding: 10px;
         text-align: center;
     }
 
@@ -246,6 +308,10 @@
         background-color: #b2ccec;
     }
 
+    footer p{
+        margin-top: 0;
+    }
+
     .container-pie{
         display: flex;
         justify-content: center;
@@ -264,11 +330,29 @@
         margin-left: 15px;
         margin-top: 15px;
         font-size: 25px;
+        margin-bottom: 0;
     }
 
     .copy{
         display: flex;
         font-size: 15px;
         justify-content: center;
+        margin-top: 1rem;
+    }
+
+    /*psicogenetica*/
+
+    .parrafos{
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align:left;
+    }
+
+    .foto1, .foto2, .foto3{
+        width: 40%;
+    }
+
+    .foto4{
+        width: 30%;
     }
 }
