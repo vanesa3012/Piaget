@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: rgb(234, 241, 241);
+}
+
 @media (max-width: 768px){
 
     nav{
@@ -158,6 +162,10 @@
         flex-direction: column;
     }
 
+    .imagen1 img{
+        justify-content: center;
+    }
+
     .imagen1 p{
         text-align: center;
         font-size: 11px;
@@ -174,26 +182,47 @@
     }
 
     .container-etapas img{
-        width: 80%;
-        height: 80%;
+        width: 70%;
+        height: 150px;
         margin-top: 10px;
+        border-radius: 3px;
+        object-fit: cover;
         
     }
 
     .container-etapas p{
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
         
     }
 
+    .card .leyenda{
+        text-decoration: none;
+        color: black;
+    }
+
     .container-etapas .card{
-        width: 90%;
-        margin-left: 23px;
+        width: 70%;
+        margin-left: 70px;
         border: 2px solid rgb(180, 180, 221);
         box-shadow: 0 4px 8px rgba(180, 180, 221);
-        background-color: #b2ccec;
+        background-color: #ebf8fa;
         text-align: center;
-    }    
+    }  
+    
+    /*sensorio*/
+    .letra{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 14px;
+    }
+
+    .inicio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
 
 }
@@ -340,6 +369,13 @@
         margin-top: 1rem;
     }
 
+    /*psicogenesis*/
+
+    .imagen1 .genesis{
+        width: 50%;
+        margin: 0 auto;
+    }
+
     /*psicogenetica*/
 
     .parrafos{
@@ -350,9 +386,75 @@
 
     .foto1, .foto2, .foto3{
         width: 40%;
+        margin: 0 auto;
     }
 
     .foto4{
         width: 30%;
+        margin: 0 auto;
+    }
+
+    /*desarrollo*/
+    .imagen1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imagen1 p{
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .container-etapas{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .container-etapas .card {
+        border: 2px solid rgba(180, 180, 221);
+        border-radius: 8px;
+        overflow: hidden;
+        width: 25%;
+        box-shadow: 0 4px 8px rgba(180, 180, 221);
+        background-color: #ebf8fa;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .card img{
+        width: 60%;
+        height: 200px;
+        object-fit: cover;
+        margin-top: 8px;
+        border-radius: 5px;
+    }
+
+    .card img:hover {
+        transform: scale(1.5);
+    }
+
+    .card .leyenda{
+        text-decoration: none;
+        margin: 0 auto;
+        color: black;
+    }
+
+    .card a:hover{
+        color: #d749f3;
+    }
+
+    /*sensorio*/
+
+    .letra{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .inicio{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 25px;
     }
 }
