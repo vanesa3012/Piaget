@@ -30,7 +30,7 @@ body{
     
     .navbar-brand img{
         width: 60px;
-        margin-left: 130px;
+        margin-left: 50px;
         border-radius: 50%;
         background-color: rgb(234, 241, 241);
     }
@@ -164,6 +164,11 @@ body{
 
     .imagen1 img{
         justify-content: center;
+    }
+
+    .genesis{
+        width: 90%;
+        margin: 0 auto;
     }
 
     .imagen1 p{
